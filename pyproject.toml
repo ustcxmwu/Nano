@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "nano"
+version = "0.1.0"
+description = ""
+authors = ["Xiaomin Wu <xmwu@mail.ustc.edu.cn>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.19.0"
+ace = "^0.3.2"
+matplotlib = "^3.3.0"
+pandas = "^1.0.5"
+torch = "^1.5.1"
+tensorflow = "^2.2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
