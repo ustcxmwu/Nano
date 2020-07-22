@@ -6,9 +6,15 @@
 Welcome to Nano's documentation!
 ================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+..  toctree::
+    :maxdepth: 2
+    :caption: Contents:
+    :numbered:
+
+    introduction
+    development
+    modules
+
 
 
 

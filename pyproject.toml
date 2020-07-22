@@ -1,8 +1,23 @@
 [tool.poetry]
 name = "nano"
 version = "0.1.0"
-description = ""
-authors = ["Xiaomin Wu <xmwu@mail.ustc.edu.cn>"]
+description = "A Deep Learning Library for Chemistry."
+authors = [
+    "Xiaomin Wu <xmwu@mail.ustc.edu.cn>",
+    "Yuangang Mei <meiyuangang1988@163.com>",
+    "Xiufeng Yang <yangxiufengsia@yahoo.com>"
+]
+License = "MIT"
+
+readme = "README.md"
+
+homepage = "https://github.com/"
+repository = "https://"
+documentation = "https://"
+
+keywords = ["nanp", "deep learning", "chemistry"]
+
+
 
 [tool.poetry.dependencies]
 python = "^3.7"

@@ -5,6 +5,9 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 # -- Path setup --------------------------------------------------------------
+import os
+import sys
+sys.path.insert(0, os.path.abspath('../../nano'))
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -31,6 +34,8 @@ release = '0.1.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    "sphinx.ext.autodoc",
+    "sphinx.ext.todo"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
