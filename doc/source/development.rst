@@ -11,3 +11,7 @@ PyTorch Utils
    :members:
 
 
+.. autoclass:: utils.common_utils.ProfileUtils
+   :members:
+
+
