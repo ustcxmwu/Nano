@@ -44,14 +44,14 @@ class ProfileUtils(object):
         func_info = func_info._replace(
             cur_call_time=call_time,
             avg_call_time=(func_info.avg_call_time*func_info.call_cnt+call_time) / (func_info.call_cnt + 1),
-            call_count=func_info.call_cnt + 1
+            call_cnt=func_info.call_cnt + 1
         )
         return func_info
 
     @staticmethod
     def timeit(**info):
         """
-        A wrapper for profiling the func
+        A wrapper for profiling the func, time unit is ms.
         Args:
             **info:  dict with key 'class_name' and 'interval', class_name used to define the name of the class of
             the called function, interval used to print information every interval calls.
@@ -77,5 +77,6 @@ class ProfileUtils(object):
 
             return time_func
         return func_wrapper
+
 
 
