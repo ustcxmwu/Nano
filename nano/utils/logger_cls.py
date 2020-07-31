@@ -9,6 +9,9 @@ from zmq.log.handlers import PUBHandler
 
 
 class LogPublisher(object):
+    """
+    Centralized logger publisher, used in MP.Process.run() to send log message to log collector.
+    """
 
     def __init__(self, ip="127.0.0.1", port=8000):
         self._logger = logging.getLogger("LogPublisher")
@@ -27,6 +30,9 @@ class LogPublisher(object):
 
 
 class LogCollector(Process):
+    """
+    Centralized logger processor, a process used to collected log message sent by other processes.
+    """
 
     def __init__(self, port=8000):
         super().__init__()
@@ -62,10 +68,6 @@ class Publisher(Process):
             topic = random.randrange(9999, 10005)
             msg = random.randrange(1, 255) - 80
             self.logger.info("{}:{}".format(topic, msg))
-
-
-
-
 
 
 if __name__ == '__main__':
