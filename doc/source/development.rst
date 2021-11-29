@@ -14,8 +14,7 @@ PyTorch Utils
 .. autoclass:: utils.common_utils.ProfileUtils
    :members:
 
-.. Note:: LogPublisher and LogCollector are used to solve the logger problem with Process in multiprocessing
-environment.
+.. Note:: LogPublisher and LogCollector are used to solve the logger problem with Process in multiprocessing environment.
 
 .. autoclass:: utils.logger_cls.LogPublisher
    :members:
