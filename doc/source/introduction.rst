@@ -5,6 +5,10 @@ A deep learning library for chemistry.
 
 .. Attention:: Directives at large.
 
+.. Attention:: Directives at large.
+
+.. Attention:: Directives at large.
+
 .. Caution:: Don't take any wooden nickels.
 
 .. DANGER:: Mad scientist at work!
