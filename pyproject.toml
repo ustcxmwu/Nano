@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "nano"
+name = "nano_chem"
 version = "0.1.0"
 description = "A Deep Learning Library for Chemistry."
 authors = [
@@ -7,9 +7,8 @@ authors = [
     "Yuangang Mei <meiyuangang1988@163.com>",
     "Xiufeng Yang <yangxiufengsia@yahoo.com>"
 ]
-License = "MIT"
-
-readme = "README.md"
+license = "MIT"
+# readme = "README.md"
 
 homepage = "https://github.com/"
 repository = "https://"
